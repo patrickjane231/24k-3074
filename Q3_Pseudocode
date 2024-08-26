@@ -1,0 +1,24 @@
+START
+
+//Declare the variables
+DECLARE a,b,Result INTEGERS
+DECLARE c as CHARACTER
+
+//Input/Output
+Enter a
+Enter b
+Enter c
+
+//Conditional Statements
+IF c== '+' THEN
+SET Result to a+b
+PRINT"The Result is __"
+IF c== '-' THEN
+SET Result to a-b
+PRINT"Result is __"
+ELSE 
+PRINT"Enter '+' or '-' operator"
+
+END
+
+
