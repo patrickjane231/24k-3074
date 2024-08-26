@@ -1,0 +1,19 @@
+START
+
+//Initialize the three variable
+ DECLARE Num1,Num2,Num3 as INTEGERS
+
+//Assign value to variable
+Num1=(value)
+Num2=(Value)
+Num3=(Value)
+
+//Conditional Statements
+IF Num1>Num2 AND Num1>Num3 THEN
+PRINT"Num1 is the  maximum number"
+IF Num2>Num3 AND Num2>Num1 THEN
+PRINT"Num2 is the maximum number"
+ElSE
+PRINT"Num3 is the maximum number"
+
+END
