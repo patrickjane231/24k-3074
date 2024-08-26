@@ -10,7 +10,7 @@ Enter b
 Enter c
 
 //Process Steps
-Sum= Sum-(-a)-(-b)-(-c)
+Sum= Sum-(-a)-(-b)-(-c)    // --=+
 PRINT"Sum is __"
 
 END
