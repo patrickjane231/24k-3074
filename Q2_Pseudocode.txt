@@ -1,0 +1,16 @@
+START
+
+//Initialize the variables
+DECLARE a,b,c,Sum as INTEGERS
+SET Sum=0
+
+//Input/Output
+Enter a
+Enter b
+Enter c
+
+//Process Steps
+Sum= Sum-(-a)-(-b)-(-c)
+PRINT"Sum is __"
+
+END
