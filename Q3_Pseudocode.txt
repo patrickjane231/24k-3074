@@ -10,10 +10,10 @@ Enter b
 Enter c
 
 //Conditional Statements
-IF c= '+' THEN
+IF c== '+' THEN
 SET Result to a+b
 PRINT"The Result is __"
-IF c= '-' THEN
+IF c== '-' THEN
 SET Result to a-b
 PRINT"Result is __"
 ELSE 
