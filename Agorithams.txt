@@ -1,0 +1,69 @@
+Q1:
+
+START
+Ask the user to enter N
+Ask the user to enter n
+IF n % N=0 THEN
+PRINT" N is the division of n"
+ELSE
+PRINT"N is not a divisor of n" 
+IF N % 2= 0 THEN
+PRINT"N is a even number"
+ELSE
+PRINT"N is an odd number"
+END
+
+Q2:
+
+START
+Ask the user to Enter Month_num from 1-12
+IF Month_num == 1 THEN
+PRINT"January"
+ELSE IF Month_num == 2 THEN
+PRINT"February"
+ELSE IF Month_num == 3 THEN
+PRINT"March"
+ELSE IF Month_num == 4 THEN
+PRINT"April"
+ELSE IF Month_num == 5 THEN
+PRINT"May"
+ELSE IF Month_num == 6 THEN
+PRINT"June"
+ELSE IF Month_num == 7 THEN
+PRINT"July"
+ELSE IF Month_num == 8 THEN
+PRINT"August"
+ELSE IF Month_num == 9 THEN
+PRINT"September"
+ELSE IF Month_num == 10 THEN
+PRINT"October"
+ELSE IF Month_num == 11 THEN
+PRINT"November"
+ELSE IF Month_num == 12 THEN
+PRINT"December"
+ELSE 
+PRINT"Enter Number from 1-12"
+END
+
+
+Q3:
+
+START
+Enter a number(num1)
+Enter a opeartor '+','-','+','/','%'
+Enter another number(num2)
+IF operator== '+' THEN
+Result= num1+num2
+ELSE IF operator == '-' THEN
+Result= num1-num2
+ELSE IF operator == '*' THEN
+Result= num1*num2
+ELSE IF operator == '/' THEN
+Result= num1/num2
+ELSE IF operator == '%' THEN
+Result= num1%num2
+ELSE
+PRINT"Enter a valid Operator"
+END
+
+
