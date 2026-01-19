@@ -9,7 +9,7 @@ body{
 
 .passMain {
     display: flex;
-    margin: auto;
+    margin-inline: auto;
     align-items: center;
     justify-content: center;
     width: 400px;
