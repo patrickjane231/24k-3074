@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Poppins,sans-serif;
+}
+
+
+.passMain {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin-top: 300px;
+}
+
+.passwordContainer {
+    background-color: peachpuff;
+    width: 100%;
+    border: 1px solid black;
+    padding : 10px 20px;
+
+}
+
+.password {
+    font-size: 16px;
+    border: none;
+    background-color: peachpuff;
+    flex: 1;
+    padding-left : 10px;
+}
+
+.password:focus{
+    outline: none;
+}
+
+.generate{
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    transition: background-color 0.15s color 0.15s;
+    padding: 5px 10px;
+    font-family: Poppins,sans-serif;
+    font-weight: 500;
+}
+
+.generate:hover{
+    background-color: green;
+    color : black
+}
+
+.title{
+    font-size: 16px;
+}
+
+.password-flex {
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    border-radius: 8px;
+}
+
+.alert-container{
+    background-color: lightgreen;
+    color : black;
+    font-size: 16px;
+    font-weight: 500;
+    position: fixed;
+    right: -300px;
+    transition: right 0.4s ease-in-out;
+}
+
+.active{
+    right: 30vw;
+    transition: right 0.4s ease-in-out;
+    background-color: lightgreen;
+    color : black;
+    font-size: 16px;
+    font-weight: 500;
+    position: fixed;
+}
+.copy {
+    width: 30px;
+}
+
+.copy:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
